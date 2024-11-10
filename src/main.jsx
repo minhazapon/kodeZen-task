@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './raw css file/style.css'
 
 
 import {
@@ -8,6 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Root from './Root';
+import MotherFile from './MotherFile';
 
 
 const router = createBrowserRouter([
@@ -17,7 +19,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <></>  ,
+        element: <MotherFile></MotherFile>  ,
+      },
+      {
+        path: "/",
+        element: <MotherFile></MotherFile>  ,
       },
     ],
   },

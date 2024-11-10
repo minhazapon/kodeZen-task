@@ -1,0 +1,75 @@
+.kzui-name{
+
+       font-size: 40px;
+
+}
+
+.kzui-n1{
+       
+      font-size: 25px;
+      
+
+}
+
+.kzui-navbar{
+
+   display: flex;
+   align-items: center;
+   gap: 120px;
+   padding: 10px;
+   background: rgba(160, 160, 160, 0.062) ;
+   border-radius: 5px;
+
+   
+   
+
+
+}
+
+.kzui-navChild{
+
+   display: flex;
+   gap: 20px;
+
+}
+
+.kzui-icon{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ 
+
+}
+.kzui-universe{
+   
+   font-family: "Rubik Wet Paint", system-ui;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.kzui-the{
+   font-family: "Satisfy", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+.kzui-perfect{
+ 
+   font-family: "Rock Salt", cursive;
+ font-weight: 400;
+ font-style: normal;
+
+
+}
+.kzui-choice{
+
+   font-family: "Sacramento", cursive;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.kzui-text-color{
+
+    color: black;
+
+}

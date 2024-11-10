@@ -1,8 +1,7 @@
 
 
-const home = () => {
-
-     
+const MotherFile = () => {
+    
     return (
         <div>
             
@@ -10,4 +9,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default MotherFile;
