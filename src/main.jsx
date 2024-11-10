@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import Root from './Root';
 import MotherFile from './MotherFile';
+import Blocks from './setting file/Blocks';
+import Setting from './setting file/Setting';
 
 
 const router = createBrowserRouter([
@@ -22,8 +24,12 @@ const router = createBrowserRouter([
         element: <MotherFile></MotherFile>  ,
       },
       {
-        path: "/",
-        element: <MotherFile></MotherFile>  ,
+        path: "/block",
+        element:  <Blocks></Blocks> ,
+      },
+      {
+        path: "/setting",
+        element:  <Setting></Setting>    ,
       },
     ],
   },

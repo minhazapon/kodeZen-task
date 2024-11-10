@@ -1,14 +1,13 @@
 .kzui-name{
 
        font-size: 40px;
-
 }
 
 .kzui-n1{
        
       font-size: 25px;
       
-
+      
 }
 
 .kzui-navbar{
@@ -19,11 +18,6 @@
    padding: 10px;
    background: rgba(160, 160, 160, 0.062) ;
    border-radius: 5px;
-
-   
-   
-
-
 }
 
 .kzui-navChild{
@@ -71,5 +65,42 @@
 .kzui-text-color{
 
     color: black;
+
+}
+.kzui-welcome-margin{
+
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+}
+.kzui-text-setting{
+   
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.kzui-menu{
+    
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.897);
+    font-style: oblique;
+
+}
+.kzui-general{
+
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+}
+.kzui-border{
+   
+   
+    border: 1px solid  rgba(160, 158, 158, 0.603);
+    padding: 20px;
+    border-radius: 10px;
+ 
 
 }
