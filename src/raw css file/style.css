@@ -111,7 +111,11 @@
 
    display: flex;
    gap: 20px;
+   justify-content: center;
+   margin-top: 40px;
    align-items: center;
+   margin-bottom: 500px;
+   
 
 }
 .kzui-button1{
@@ -175,7 +179,9 @@
     border-radius: 5px;
     padding: 20px;
     width: 800px;
-    margin-bottom: -121px;
+    margin-bottom: -403px;
+    margin-top: 7px;
+    height: 500px;
 }
 
 

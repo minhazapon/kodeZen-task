@@ -24,7 +24,7 @@ const DesignTabs = () => {
              <h2>typography is not available</h2>
              </TabPanel>
              <TabPanel>
-             <h2>Shadow is not available</h2>
+             <h2>typegraphy is not available</h2>
              </TabPanel>
              </Tabs>      
              </div>  
