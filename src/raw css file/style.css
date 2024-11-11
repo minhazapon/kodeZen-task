@@ -114,7 +114,7 @@
    justify-content: center;
    margin-top: 40px;
    align-items: center;
-   margin-bottom: 500px;
+   margin-bottom: 800px;
    
 
 }
@@ -179,9 +179,116 @@
     border-radius: 5px;
     padding: 20px;
     width: 800px;
-    margin-bottom: -403px;
+    margin-bottom: -703px;
     margin-top: 7px;
-    height: 500px;
+    height: 800px;
+}
+.kzui-tabs-div{
+    
+   margin-bottom: -18px;
+
+}
+
+.kzui-table-title{
+   
+    font-size: 20px;
+    font-weight: 200;
+
+
+}
+.kzui-title{
+
+     display: flex;
+     justify-content: space-between;
+     gap: 100px;
+  
+
+}
+.kzui-table-icon{
+
+     display: flex;
+     align-items: center;
+
+}
+.kzui-c-m{
+   
+   margin-left: -10px;
+
+}
+.kzui-c-delete{
+
+   margin-right: -43px;
+}
+
+.kzui-hover:hover{
+   
+   background: rgba(128, 128, 128, 0.089);
+   padding: 5px;
+   border-radius: 5px;
+
+}
+.kzui-BsFillTrashFill{
+   
+   color: red;
+   cursor: pointer;
+
+}
+.kzui-BsFillPenFill{
+   
+   color:  black ;
+   cursor: pointer;
+
+}
+
+/* -------modal work---------------------- */
+.kzui-modal-flex{
+   
+   display: flex;
+   justify-content: center;
+
+}
+
+.kzui-modal-container{
+   
+   position: fixed;
+   z-index: 1;
+   left: 0%;
+   top: 0%;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.281) ;
+
+}
+.kzui-modal-form{
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.kzui-modal-name{
+   
+   height: 40px;
+   width: 400px;
+   padding: 5px;
+   border-radius: 5px;
+
+  
+}
+.kzui-button-name{
+    
+   width: 100%;
+   margin-top: 20px;
+   height: 40px;
+   border: 1px solid rgba(128, 128, 128, 0);
+   border-radius: 5px;
+
 }
 
 
+
+
+/* -------modal work---------------------- */

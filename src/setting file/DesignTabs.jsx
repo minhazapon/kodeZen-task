@@ -1,6 +1,7 @@
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import ColorTable from '../color table file/ColorTable';
 
 const DesignTabs = () => {
 
@@ -10,7 +11,7 @@ const DesignTabs = () => {
             <div className=' kzui-designTabs '>
 
 
-             <div>
+             <div className=' kzui-tabs-div'>
              <Tabs>
              <TabList>
              <Tab>Color</Tab>
@@ -18,13 +19,13 @@ const DesignTabs = () => {
              <Tab>Shadow</Tab>
              </TabList>
              <TabPanel>
-             <h2>Any content 1</h2>
+             <h2> <ColorTable></ColorTable> </h2>
              </TabPanel>
              <TabPanel>
              <h2>typography is not available</h2>
              </TabPanel>
              <TabPanel>
-             <h2>typegraphy is not available</h2>
+             <h2>Shadow is not available</h2>
              </TabPanel>
              </Tabs>      
              </div>  
