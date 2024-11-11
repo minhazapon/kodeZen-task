@@ -12,6 +12,8 @@ import Root from './Root';
 import MotherFile from './MotherFile';
 import Blocks from './setting file/Blocks';
 import Setting from './setting file/Setting';
+import Welcome from './setting file/Welcome';
+import DesignSystem from './setting file/DesignSystem';
 
 
 const router = createBrowserRouter([
@@ -30,6 +32,16 @@ const router = createBrowserRouter([
       {
         path: "/setting",
         element:  <Setting></Setting>    ,
+      },
+      {
+        path: "/welcome",
+        element:  <Welcome></Welcome>,
+        children: [
+          {
+            path: "DSystem",
+            element:  <DesignSystem></DesignSystem> ,
+          },
+        ],
       },
     ],
   },
