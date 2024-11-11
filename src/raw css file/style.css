@@ -71,7 +71,7 @@
 }
 .kzui-welcome-margin{
 
-      margin-top: 20px;
+      
       margin-bottom: 20px;
       margin-left: 20px;
       margin-right: 20px;
@@ -111,6 +111,7 @@
 
    display: flex;
    gap: 20px;
+   align-items: center;
 
 }
 .kzui-button1{
@@ -133,8 +134,47 @@
    border: 1px solid rgba(128, 128, 128, 0);
    border-radius: 5px;
   
- 
 
+}
+.kzui-H-W{
+
+   height: 1px;
+   width: 799px;
+   background-color: rgba(128, 128, 128, 0.541);
+
+}
+.kzui-search{
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid gray;
+    padding: 6px;
+    width: 220px;
+    border-radius: 4px;
+    height: 25px;
+    
+
+
+}
+.kzui-search-input{
+
+    border: 1px solid rgba(255, 255, 255, 0);
+
+}
+.kzui-designTabs{
+   
+    display:  flex; 
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.kzui-all-designSystem-file{
+
+    border: 1px solid rgba(128, 128, 128, 0.712);
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px;
 }
 
 

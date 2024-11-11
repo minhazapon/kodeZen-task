@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         element:  <Welcome></Welcome>,
         children: [
           {
-            path: "DSystem",
+            path: "",
             element:  <DesignSystem></DesignSystem> ,
           },
         ],
