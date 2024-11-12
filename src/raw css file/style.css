@@ -136,6 +136,7 @@
    width: 250px;
    border: 1px solid rgba(128, 128, 128, 0);
    border-radius: 5px;
+   cursor: pointer;
   
 
 }
@@ -192,7 +193,7 @@
    
    font-size: 20px;
    font-weight: 200;
-
+ 
 
 }
 .kzui-title{
@@ -200,14 +201,14 @@
    display: flex;
    justify-content: space-between;
    gap: 100px;
-   border: 1px solid gray;
+   border: 1px solid rgba(128, 128, 128, 0.336);
    height: 60px;
    width: 500px;
    padding: 5px;
    margin-top: 5px;
-   grid-column: 3;
-  
+   border-radius: 5px;
 
+  
 }
 .kzui-table-icon{
 
