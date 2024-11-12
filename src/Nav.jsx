@@ -15,9 +15,9 @@ const Nav = () => {
         <p className=" kzui-name ">aBlocks</p>
         </div>
         <div className=' kzui-navChild'>
-        <NavLink to='/welcome' ><button className=' kzui-n1 kzui-the '><span className=' kzui-text-color'>Welcome</span></button></NavLink>
-        <NavLink to='/block' ><button className=' kzui-n1 kzui-the '><span className=' kzui-text-color'>Blocks</span></button></NavLink>
-        <NavLink to='/setting' ><button className=' kzui-n1 kzui-the '><span className=' kzui-text-color'>Setting</span></button></NavLink>
+        <NavLink to='/welcome' ><button className=' kuzi-B-H kzui-n1 kzui-the '><span className=' kzui-text-color'>Welcome</span></button></NavLink>
+        <NavLink to='/block' ><button className=' kuzi-B-H kzui-n1 kzui-the '><span className=' kzui-text-color'>Blocks</span></button></NavLink>
+        <NavLink to='/setting' ><button className=' kuzi-B-H kzui-n1 kzui-the '><span className=' kzui-text-color'>Setting</span></button></NavLink>
         </div> 
         </div>
         </div>
