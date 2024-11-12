@@ -21,28 +21,28 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root></Root>  ,
     children: [
-      {
-        path: "/motherFile",
-        element: <MotherFile></MotherFile>  ,
-      },
-      {
-        path: "/block",
-        element:  <Blocks></Blocks> ,
-      },
-      {
-        path: "/setting",
-        element:  <Setting></Setting>    ,
-      },
-      {
-        path: "/welcome",
-        element:  <Welcome></Welcome>,
-        children: [
-          {
-            path: "designSystem",
-            element:  <DesignSystem></DesignSystem> ,
-          },
-        ],
-      },
+    {
+      path: "/motherFile",
+      element: <MotherFile></MotherFile>  ,
+    },
+    {
+      path: "/block",
+      element:  <Blocks></Blocks> ,
+    },
+    {
+      path: "/setting",
+      element:  <Setting></Setting>    ,
+    },
+    {
+    path: "/welcome",
+    element:  <Welcome></Welcome>,
+    children: [
+    {
+    path: "designSystem",
+    element:  <DesignSystem></DesignSystem> ,
+    },
+    ],
+    },
     ],
   },
 ]);
