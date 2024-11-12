@@ -201,6 +201,12 @@
      display: flex;
      justify-content: space-between;
      gap: 100px;
+     border: 1px solid gray;
+     height: 60px;
+     width: 500px;
+     padding: 5px;
+     margin-top: 5px;
+     grid-column: 3;
   
 
 }
@@ -285,10 +291,37 @@
    height: 40px;
    border: 1px solid rgba(128, 128, 128, 0);
    border-radius: 5px;
+   cursor: pointer;
+
+}
+.kzui-button-hover:hover{
+   
+    background: rgb(0, 0, 124);
+    color: white;
+    font-style: oblique;
+   
+}
+.kzui-add-button{
+
+   cursor: pointer;
+   font-size: 15px;
+   background: rgb(0, 0, 129);
+   color: white;
+   padding: 7px;
+   margin-top: 10px;
+  
+}
+.kzui-add-button-border:hover{
+
+   border: 1px solid aqua ;
 
 }
 
-
-
-
 /* -------modal work---------------------- */
+
+
+.kzui-value{
+
+    margin-right: -50px;
+
+}

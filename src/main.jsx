@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <Root></Root>  ,
     children: [
       {
-        path: "/",
+        path: "/motherFile",
         element: <MotherFile></MotherFile>  ,
       },
       {
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         element:  <Welcome></Welcome>,
         children: [
           {
-            path: "",
+            path: "designSystem",
             element:  <DesignSystem></DesignSystem> ,
           },
         ],
