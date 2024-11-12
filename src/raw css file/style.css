@@ -1,13 +1,13 @@
 .kzui-name{
 
-       font-size: 40px;
+   font-size: 40px;
 }
 
 .kzui-n1{
        
-      font-size: 25px;
-      border: 1px solid rgba(128, 128, 128, 0);
-      border-radius: 5px;
+   font-size: 25px;
+   border: 1px solid rgba(128, 128, 128, 0);
+   border-radius: 5px;
       
       
 }
@@ -31,9 +31,9 @@
 
 .kzui-icon{
     
-    display: flex;
-    align-items: center;
-    gap: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
  
 
 }
@@ -52,8 +52,8 @@
 .kzui-perfect{
  
    font-family: "Rock Salt", cursive;
- font-weight: 400;
- font-style: normal;
+   font-weight: 400;
+   font-style: normal;
 
 
 }
@@ -66,30 +66,30 @@
 }
 .kzui-text-color{
 
-    color: black;
+   color: black;
 
 }
 .kzui-welcome-margin{
 
       
-      margin-bottom: 20px;
-      margin-left: 20px;
-      margin-right: 20px;
-      height: 300px;
-      width: 400px ;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   height: 300px;
+   width: 400px ;
 
 }
 .kzui-text-setting{
    
-    font-size: 30px;
-    font-style: oblique;
+   font-size: 30px;
+   font-style: oblique;
 }
 
 .kzui-menu{
     
-    font-size: 20px;
-    color: rgba(128, 128, 128, 0.897);
-    font-style: oblique;
+   font-size: 20px;
+   color: rgba(128, 128, 128, 0.897);
+   font-style: oblique;
 
 }
 .kzui-general{
@@ -103,15 +103,14 @@
 .kzui-border{
    
    
-    border: 1px solid  rgba(160, 158, 158, 0.603);
-    padding: 20px;
-    border-radius: 10px;
+   border: 1px solid  rgba(160, 158, 158, 0.603);
+   padding: 20px;
+   border-radius: 10px;
 }
 .kzui-flex{
 
    display: flex;
    gap: 20px;
-   justify-content: center;
    margin-top: 40px;
    align-items: center;
    margin-bottom: 800px;
@@ -120,7 +119,7 @@
 }
 .kzui-button1{
 
-    font-size: 30px;
+   font-size: 30px;
     
 
 }
@@ -149,39 +148,39 @@
 }
 .kzui-search{
 
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    border: 1px solid gray;
-    padding: 6px;
-    width: 220px;
-    border-radius: 4px;
-    height: 25px;
+   display: flex;
+   align-items: center;
+   gap: 2px;
+   border: 1px solid gray;
+   padding: 6px;
+   width: 220px;
+   border-radius: 4px;
+   height: 25px;
     
 
 
 }
 .kzui-search-input{
 
-    border: 1px solid rgba(255, 255, 255, 0);
+   border: 1px solid rgba(255, 255, 255, 0);
 
 }
 .kzui-designTabs{
    
-    display:  flex; 
-    justify-content: space-between;
-    gap: 50px;
+   display:  flex; 
+   justify-content: space-between;
+   gap: 50px;
 
 }
 .kzui-all-designSystem-file{
 
-    border: 1px solid rgba(128, 128, 128, 0.712);
-    border-radius: 5px;
-    padding: 20px;
-    width: 800px;
-    margin-bottom: -703px;
-    margin-top: 7px;
-    height: 800px;
+   border: 1px solid rgba(128, 128, 128, 0.712);
+   border-radius: 5px;
+   padding: 20px;
+   width: 800px;
+   margin-bottom: -703px;
+   margin-top: 7px;
+   height: 800px;
 }
 .kzui-tabs-div{
     
@@ -191,29 +190,29 @@
 
 .kzui-table-title{
    
-    font-size: 20px;
-    font-weight: 200;
+   font-size: 20px;
+   font-weight: 200;
 
 
 }
 .kzui-title{
 
-     display: flex;
-     justify-content: space-between;
-     gap: 100px;
-     border: 1px solid gray;
-     height: 60px;
-     width: 500px;
-     padding: 5px;
-     margin-top: 5px;
-     grid-column: 3;
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+   border: 1px solid gray;
+   height: 60px;
+   width: 500px;
+   padding: 5px;
+   margin-top: 5px;
+   grid-column: 3;
   
 
 }
 .kzui-table-icon{
 
-     display: flex;
-     align-items: center;
+   display: flex;
+   align-items: center;
 
 }
 .kzui-c-m{
@@ -270,9 +269,9 @@
 }
 .kzui-modal-form{
 
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
 
 }
 .kzui-modal-name{
@@ -296,9 +295,9 @@
 }
 .kzui-button-hover:hover{
    
-    background: rgb(0, 0, 124);
-    color: white;
-    font-style: oblique;
+   background: rgb(0, 0, 124);
+   color: white;
+   font-style: oblique;
    
 }
 .kzui-add-button{
@@ -322,6 +321,15 @@
 
 .kzui-value{
 
-    margin-right: -50px;
+   margin-right: -50px;
+
+}
+.kzui-add-title{
+    
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+
 
 }
